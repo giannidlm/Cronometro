@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background: url("imagenes/fondo.jpg") no-repeat center center/cover;
+}
+
+.contenedor-principal {
+    width: 70vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1b56c;
+    border-radius: 130px;
+    border: 3px solid black;
+    background-image: url("imagenes/fondo2.jpg");   background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+   
+
+
+
+.contenedor-botones {
+    padding: 20px;
+}
+
+#cronometro {
+  width: 60%;
+  font-size: 78px;
+  font-weight: bold;
+    user-select: none;  
+  font-family: "Keania One", serif;;
+    margin: -32px;
+    margin-top: 20px;
+    color: bisque;
+}
+
+
+
+.boton {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i {
+    background-color: khaki;
+}
+
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i {
+    background-color: #E5E47D ;
+}
+
+#boton-reiniciar {
+    background-color:rgb(255, 0, 0);
+}
